@@ -61,10 +61,13 @@ dependencies {
     compile(":video.up.test:1.0.0")
     compile(":autograder.handin:1.0.0")
     compile(":autograder.spec:1.0.0")
-    
+    compile("org.springframework.boot:spring-boot-starter-jdbc")
+
     testCompile("junit:junit")
 }
 
-task wrapper(type: Wrapper) {
+mainClassName = 'org.magnum.dataup.Application'
+
+task wrapper2(type: Wrapper) {
     gradleVersion = '5.0'
 }

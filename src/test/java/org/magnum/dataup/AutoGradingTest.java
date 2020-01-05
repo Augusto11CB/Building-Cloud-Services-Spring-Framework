@@ -97,6 +97,7 @@ public class AutoGradingTest {
 					+ "https://class.coursera.org/mobilecloud-001/lecture/61 "
 					+ "https://class.coursera.org/mobilecloud-001/lecture/67 "
 					+ "https://class.coursera.org/mobilecloud-001/lecture/71"
+					+ "https://class.coursera.org/mobilecloud-001/lecture/71"
 			)
 	@Test
 	public void testAddVideoMetadata() throws Exception {
