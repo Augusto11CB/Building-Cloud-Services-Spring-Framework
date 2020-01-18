@@ -66,6 +66,8 @@ dependencies {
 
     compile("org.springframework.boot:spring-boot-starter-jdbc")
     
+    compile("com.h2database:h2")
+    
     testCompile("junit:junit")
 }
 
