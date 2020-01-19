@@ -1,12 +1,12 @@
 package org.magnum.mobilecloud.video.service.impl;
 
 import org.magnum.mobilecloud.video.exceptions.FileNotFoundException;
+import org.magnum.mobilecloud.video.exceptions.LikingMoreThanOnceException;
 import org.magnum.mobilecloud.video.repository.Video;
 import org.magnum.mobilecloud.video.repository.VideoRepository;
 import org.magnum.mobilecloud.video.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 
 import java.io.IOException;
 import java.security.Principal;
@@ -20,6 +20,9 @@ public class VideoServiceImpl implements VideoService {
 
     @Autowired
     private VideoRepository videoRepository;
+
+    //@Autowired
+    //private UserVideoLikesRepository userVideoLikesRepository;
 
     @Override
     public Collection<Video> getVideoList() {
@@ -39,8 +42,8 @@ public class VideoServiceImpl implements VideoService {
     }
 
     @Override
-    public Video getVideoById(long id) throws IOException {
-        return null;
+    public Video getVideoById(long idVideo) throws IOException {
+        return videoRepository.findOne(idVideo);
     }
 
 //    @Override
@@ -87,6 +90,19 @@ public class VideoServiceImpl implements VideoService {
         Video video = videoRepository.findOne(idVideo);
 
         if (Objects.isNull(video)) throw new FileNotFoundException("Video metadata not found");
+
+        if (video.getLikedBy().contains(p.getName())) {
+            throw new LikingMoreThanOnceException("Video already liked by the user: " + p.getName());
+        } else {
+            videoRepository.save(addLike(video, p.getName()));
+        }
+
+    }
+
+    private Video addLike(Video video, String name) {
+        video.setLikes(video.getLikes() + 1);
+        video.getLikedBy().add(name);
+        return video;
     }
 
     @Override
@@ -94,5 +110,18 @@ public class VideoServiceImpl implements VideoService {
         Video video = videoRepository.findOne(idVideo);
 
         if (Objects.isNull(video)) throw new FileNotFoundException("Video metadata not found");
+
+        if (video.getLikedBy().contains(p.getName())) {
+            videoRepository.save(removeLikeVideo(video,p.getName()));
+        } else {
+            videoRepository.save(addLike(video, p.getName()));
+        }
+    }
+
+    private Video removeLikeVideo(Video video, String name) {
+        video.setLikes(video.getLikes() - 1);
+        video.getLikedBy().remove(name);
+
+        return video;
     }
 }

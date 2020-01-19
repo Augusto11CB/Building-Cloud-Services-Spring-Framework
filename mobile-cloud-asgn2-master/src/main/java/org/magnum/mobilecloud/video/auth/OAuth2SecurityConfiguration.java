@@ -34,7 +34,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
  *  Most of this code can be reused in other applications. The key methods that would definitely need to
  *  be changed are:
  *  
- *  ResourceServer.configure(...) - update this method to apply the appropriate 
+ *  ResourceServer.configure(...) - update this method to apply the appropriate
  *  set of scope requirements on client requests
  *  
  *  OAuth2Config constructor - update this constructor to create a "real" (not hard-coded) UserDetailsService
@@ -60,6 +60,7 @@ public class OAuth2SecurityConfiguration {
 		@Autowired
 		protected void registerAuthentication(
 				final AuthenticationManagerBuilder auth) throws Exception {
+			// Configuring spring to use the userDetailsService for authetication
 			auth.userDetailsService(userDetailsService);
 		}
 	}

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b74f55-6774-45f4-8509-fe40dbac0002" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/dataup/AnEmptyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/dataup/AnEmptyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$OAuth2Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$OAuth2Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$ResourceServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$ResourceServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$WebSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$WebSecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/out/production/classes/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/out/production/classes/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn2-master/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/dataup/VideoFileManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/dataup/AnEmptyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+            <state relative-caret-position="232">
+              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -104,6 +104,7 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/dataup/VideoFileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/magnum/dataup/AnEmptyController.java" />
       </list>
     </option>
   </component>
@@ -122,7 +123,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -255,7 +256,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579387408657" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579472673675" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
@@ -310,15 +311,15 @@
       <option name="presentableId" value="Default" />
       <updated>1578862888699</updated>
       <workItem from="1578862890492" duration="1680000" />
-      <workItem from="1579372790422" duration="3162000" />
+      <workItem from="1579372790422" duration="4983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4842000" />
+    <option name="totallyTimeSpent" value="6663000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
@@ -422,13 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/dataup/AnEmptyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/dataup/service/impl/VideoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -440,6 +434,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="94" column="55" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/dataup/AnEmptyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ec633b1-72fb-411e-b07f-f2489a4988c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile-cloud-asgn1/src/main/java/org/magnum/dataup/AnEmptyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile-cloud-asgn1/src/main/java/org/magnum/dataup/AnEmptyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$OAuth2Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$OAuth2Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$ResourceServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$ResourceServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$WebSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration$WebSecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -48,12 +48,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/AutoGradingTest.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="230">
-                    <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-                    <folding>
-                      <element signature="method#testLikeCount#0;class#AutoGradingTest#0" />
-                      <element signature="method#testLikingTwice#0;class#AutoGradingTest#0" />
-                    </folding>
+                  <state relative-caret-position="3312">
+                    <caret line="168" selection-start-line="168" selection-end-line="168" />
                   </state>
                 </provider>
               </entry>
@@ -87,20 +83,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applications.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="343">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+              <folding>
+                <element signature="e#3183#3184#0" expanded="true" />
+                <element signature="e#3230#3231#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,21 +106,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/client/VideoSvcApi.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.9.RELEASE/ac0cd8f380374625ea4c7bc4aa19521a8ee93e7b/spring-web-4.0.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="156" column="24" selection-start-line="156" selection-start-column="24" selection-end-line="156" selection-end-column="24" />
+            <state relative-caret-position="144">
+              <caret line="220" selection-start-line="220" selection-end-line="220" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/UserVideoLikes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
+            <state relative-caret-position="437">
+              <caret line="19" column="27" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/UserVideoLikesRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="11" selection-end-line="12" />
               <folding>
-                <element signature="e#3230#3231#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="44" column="59" lean-forward="true" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addVideo#0;class#VideoServiceImpl#0" />
+                <element signature="e#1151#1166#0" />
               </folding>
             </state>
           </provider>
@@ -138,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/exceptions/FileNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="126">
               <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -148,45 +162,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/exceptions/LikingMoreThanOnceException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2203#2204#0" expanded="true" />
-                <element signature="e#2230#2231#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/FileNotFoundException.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.9.RELEASE/ac0cd8f380374625ea4c7bc4aa19521a8ee93e7b/spring-web-4.0.9.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="479">
+              <caret line="184" column="4" selection-start-line="184" selection-start-column="4" selection-end-line="184" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/Video.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="299">
+              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,8 +196,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -207,6 +207,18 @@
       <find>OAuth2Config</find>
       <find>getVideoById</find>
       <find>jpa</find>
+      <find>EnableGlobalMethodSecurity</find>
+      <find>WebSecurityConfigurerAdapter</find>
+      <find>EnableAuthorizationServer</find>
+      <find>ResourceServerConfigurerAdapter</find>
+      <find>AuthorizationServerConfigurerAdapter</find>
+      <find>ResourceServerSecurityConfigurer</find>
+      <find>ClientDetailsServiceConfigurer</find>
+      <find>WebSecurityConfigurerAdapter</find>
+      <find>implements User</find>
+      <find>UserDetailsService</find>
+      <find>implements</find>
+      <find>WebSecurity</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,7 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/exceptions/FileNotFoundException.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/FileManagerService.java" />
@@ -224,6 +235,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/applications.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/VideoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/exceptions/LikingMoreThanOnceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/UserVideoLikesRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/UserVideoLikes.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java" />
       </list>
     </option>
@@ -300,7 +316,25 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile-cloud-asgn2-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile-cloud-asgn2-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
@@ -355,6 +389,41 @@
               <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.3.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.3.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.3.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobile-cloud-asgn2-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.3.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -364,15 +433,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579387408948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579472906256" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.magnum.mobilecloud.video.repository" />
       <recent name="org.magnum.mobilecloud.video.exceptions" />
+      <recent name="org.magnum.mobilecloud.video.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AsusAugusto\Documents\Building Cloud Services with the Java Spring Framework\mobile-cloud-asgn1\mobile-cloud-asgn2-master\src\main\java\org\magnum\mobilecloud\video" />
@@ -390,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AutoGradingTest.testLikingNonExistantVideo">
+  <component name="RunManager" selected="JUnit.AutoGradingTest">
     <configuration name="AutoGradingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mobile-cloud-asgn2-master.test" />
       <extension name="coverage">
@@ -406,7 +475,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoGradingTest.testAddGetVideo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoGradingTest.testDenyVideoAddWithoutOAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mobile-cloud-asgn2-master.test" />
       <extension name="coverage">
         <pattern>
@@ -416,13 +485,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.magnum.mobilecloud.integration.test" />
       <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.integration.test.AutoGradingTest" />
-      <option name="METHOD_NAME" value="testAddGetVideo" />
+      <option name="METHOD_NAME" value="testDenyVideoAddWithoutOAuth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoGradingTest.testFindByDurationLessThan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoGradingTest.testLikeCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mobile-cloud-asgn2-master.test" />
       <extension name="coverage">
         <pattern>
@@ -432,23 +501,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.magnum.mobilecloud.integration.test" />
       <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.integration.test.AutoGradingTest" />
-      <option name="METHOD_NAME" value="testFindByDurationLessThan" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutoGradingTest.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mobile-cloud-asgn2-master.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.magnum.mobilecloud.integration.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.magnum.mobilecloud.integration.test" />
-      <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.integration.test.AutoGradingTest" />
-      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="METHOD_NAME" value="testLikeCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -470,6 +523,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutoGradingTest.testLikingTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobile-cloud-asgn2-master.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.magnum.mobilecloud.integration.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.magnum.mobilecloud.integration.test" />
+      <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.integration.test.AutoGradingTest" />
+      <option name="METHOD_NAME" value="testLikingTwice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mobile-cloud-asgn2-master.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.magnum.mobilecloud.video.Application" />
@@ -479,11 +548,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AutoGradingTest.testLikingNonExistantVideo" />
-        <item itemvalue="JUnit.AutoGradingTest.testAddGetVideo" />
-        <item itemvalue="JUnit.AutoGradingTest.testFindByDurationLessThan" />
-        <item itemvalue="JUnit.AutoGradingTest.testFindByName" />
         <item itemvalue="JUnit.AutoGradingTest" />
+        <item itemvalue="JUnit.AutoGradingTest.testLikeCount" />
+        <item itemvalue="JUnit.AutoGradingTest.testLikingTwice" />
+        <item itemvalue="JUnit.AutoGradingTest.testDenyVideoAddWithoutOAuth" />
+        <item itemvalue="JUnit.AutoGradingTest.testLikingNonExistantVideo" />
       </list>
     </recent_temporary>
   </component>
@@ -498,44 +567,44 @@
       <option name="presentableId" value="Default" />
       <updated>1578864735504</updated>
       <workItem from="1578864740174" duration="230000" />
-      <workItem from="1579372799572" duration="10688000" />
+      <workItem from="1579372799572" duration="23761000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AutoGradingTest_testAddVideoMetadata - 2020.01.18 at 20h 36m 49s.xml">
-      <configuration name="AutoGradingTest.testAddVideoMetadata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoGradingTest_testAddVideoMetadata - 2020.01.18 at 20h 37m 09s.xml">
-      <configuration name="AutoGradingTest.testAddVideoMetadata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoGradingTest_testAddVideoMetadata - 2020.01.18 at 20h 37m 32s.xml">
-      <configuration name="AutoGradingTest.testAddVideoMetadata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoGradingTest_testAddVideoMetadata - 2020.01.18 at 20h 37m 49s.xml">
-      <configuration name="AutoGradingTest.testAddVideoMetadata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoGradingTest_testAddVideoMetadata - 2020.01.18 at 20h 38m 40s.xml">
-      <configuration name="AutoGradingTest.testAddVideoMetadata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoGradingTest - 2020.01.18 at 20h 39m 42s.xml">
-      <configuration name="AutoGradingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoGradingTest_testFindByName - 2020.01.18 at 20h 40m 37s.xml">
-      <configuration name="AutoGradingTest.testFindByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoGradingTest_testFindByDurationLessThan - 2020.01.18 at 20h 41m 05s.xml">
-      <configuration name="AutoGradingTest.testFindByDurationLessThan" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AutoGradingTest_testAddGetVideo - 2020.01.18 at 20h 41m 20s.xml">
-      <configuration name="AutoGradingTest.testAddGetVideo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AutoGradingTest_testLikingNonExistantVideo - 2020.01.18 at 20h 41m 46s.xml">
       <configuration name="AutoGradingTest.testLikingNonExistantVideo" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AutoGradingTest_testLikingNonExistantVideo - 2020.01.18 at 20h 43m 47s.xml">
+      <configuration name="AutoGradingTest.testLikingNonExistantVideo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGradingTest_testDenyVideoAddWithoutOAuth - 2020.01.19 at 19h 17m 52s.xml">
+      <configuration name="AutoGradingTest.testDenyVideoAddWithoutOAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGradingTest_testLikeCount - 2020.01.19 at 20h 17m 53s.xml">
+      <configuration name="AutoGradingTest.testLikeCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGradingTest_testLikeCount - 2020.01.19 at 20h 18m 16s.xml">
+      <configuration name="AutoGradingTest.testLikeCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGradingTest_testLikeCount - 2020.01.19 at 20h 21m 31s.xml">
+      <configuration name="AutoGradingTest.testLikeCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGradingTest_testLikeCount - 2020.01.19 at 20h 23m 10s.xml">
+      <configuration name="AutoGradingTest.testLikeCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGradingTest_testLikeCount - 2020.01.19 at 20h 25m 06s.xml">
+      <configuration name="AutoGradingTest.testLikeCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGradingTest_testLikingTwice - 2020.01.19 at 20h 28m 14s.xml">
+      <configuration name="AutoGradingTest.testLikingTwice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AutoGradingTest_testLikeCount - 2020.01.19 at 20h 28m 39s.xml">
+      <configuration name="AutoGradingTest.testLikeCount" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10918000" />
+    <option name="totallyTimeSpent" value="23991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,7 +620,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25248072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26350605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,13 +633,13 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5140187" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3416407" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.52544135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.20872274" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.43925235" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -637,6 +706,30 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/AutoGradingTest.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -645,41 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/client/SecuredRestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="128" column="33" lean-forward="true" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
-          <folding>
-            <element signature="e#8047#8048#0" expanded="true" />
-            <element signature="e#8079#8080#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.2.10.RELEASE/d58ffa1272ee3cea22fed9b8397d6d388812df81/spring-security-core-3.2.10.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/ClientAndUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,33 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -768,44 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/AutoGradingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="method#testLikeCount#0;class#AutoGradingTest#0" />
-            <element signature="method#testLikingTwice#0;class#AutoGradingTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/exceptions/FileNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
-          <folding>
-            <element signature="e#3230#3231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/FileNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -813,15 +806,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.3.4.RELEASE/1f8dddd8964c98290f831fbdb1d5cb4b121b60e9/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/client/ClientDetailsUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        <state relative-caret-position="185">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.3.4.RELEASE/1f8dddd8964c98290f831fbdb1d5cb4b121b60e9/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/configurers/ClientDetailsServiceConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/client/SecuredRestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.2.10.RELEASE/d58ffa1272ee3cea22fed9b8397d6d388812df81/spring-security-core-3.2.10.RELEASE-sources.jar!/org/springframework/security/core/authority/AuthorityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.2.10.RELEASE/d58ffa1272ee3cea22fed9b8397d6d388812df81/spring-security-core-3.2.10.RELEASE-sources.jar!/org/springframework/security/core/GrantedAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.2.10.RELEASE/d58ffa1272ee3cea22fed9b8397d6d388812df81/spring-security-core-3.2.10.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/client/SecuredRestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2230#2231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/ClientAndUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="151" column="79" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="79" />
+          <folding>
+            <element signature="docComment;class#OAuth2SecurityConfiguration#0" />
+            <element signature="n#!!doc;n#WebSecurityConfiguration#0;n#OAuth2SecurityConfiguration#0" />
+            <element signature="e#3137#3151#0" />
+            <element signature="method#registerAuthentication#0;class#WebSecurityConfiguration#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="docComment;class#ResourceServer#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="e#3645#3659#0" />
+            <element signature="method#configure#0;class#ResourceServer#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="e#4135#4186#0" />
+            <element signature="method#configure#1;class#ResourceServer#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="docComment;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="e#4914#4928#0" />
+            <element signature="docComment;method#OAuth2Config#0;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="e#5981#6032#0" />
+            <element signature="e#6274#6334#0" />
+            <element signature="e#6546#6606#0" />
+            <element signature="e#7279#7357#0" />
+            <element signature="docComment;method#clientDetailsService#0;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="method#clientDetailsService#0;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="docComment;method#userDetailsService#0;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="docComment;method#configure#0;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="method#configure#0;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="docComment;method#configure#1;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+            <element signature="method#configure#1;class#OAuth2Config#0;class#OAuth2SecurityConfiguration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/VideoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/exceptions/FileNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.9.RELEASE/ac0cd8f380374625ea4c7bc4aa19521a8ee93e7b/spring-web-4.0.9.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="184" column="4" selection-start-line="184" selection-start-column="4" selection-end-line="184" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/exceptions/LikingMoreThanOnceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/UserVideoLikesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="11" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/repository/UserVideoLikes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="27" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.9.RELEASE/ac0cd8f380374625ea4c7bc4aa19521a8ee93e7b/spring-web-4.0.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/service/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="44" column="59" lean-forward="true" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addVideo#0;class#VideoServiceImpl#0" />
+            <element signature="e#1151#1166#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/AnEmptyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#3183#3184#0" expanded="true" />
+            <element signature="e#3230#3231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/AutoGradingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
         </state>
       </provider>
     </entry>

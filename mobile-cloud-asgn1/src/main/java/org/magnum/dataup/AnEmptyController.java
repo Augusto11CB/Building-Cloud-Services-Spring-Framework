@@ -71,7 +71,7 @@ public class AnEmptyController {
 //        byte[] bytesArray = new byte[(int) typedFile.file().length()];
 //        FileInputStream fis = new FileInputStream(typedFile.file());
 //        fis.read(bytesArray); //read file into bytes[]
-//        fis.close();
+//        fis.close();gtr
 //        return videoService.saveVideoFile(id, bytesArray);
         return videoService.saveVideoFile(id, videoData.getBytes());
     }
